@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign Up Here</title>
+        <style>
+.container{
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.pricecol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #ed6856;
+    color: seashell;
+}
+
+#about{
+    background-color: #f07654;
+    width: 50%;
+    text-align: center;
+    color: seashell;
+}
+
+#grid{
+    width: 700px;
+    border: 1px solid seashell;
+    box-shadow: 5px 5px #6a6b6a;
+
+}
+
+h1{
+    color: #ed6856;
+}
+
+.subhead{
+    color: #56c1ab;
+    text-decoration: underline;
+}
+
+.price{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn{
+    width:200px;
+    height: 50px;
+ border-radius: 5px;
+ background-color: #56c1ab;
+ color: seashell;
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 15px;
+ font-weight: bold;
+
+}
+
+.btn:hover{
+    background-color: seashell;
+    color: #ed6856;
+}
+
+.btn:active{
+    width: 225px;
+}
+        </style>
+    </head>
+<body>
+
+    <div id="grid">
+        <div>
+            <h1>Join Our Community</h1>
+            <h3 class="subhead">30 Day Money Back Guarantee</h3>\
+            <p>After joining the recipe club you will have access to hundreds of community submitted recipes.</p>
+        </div>
+        <div class="container">
+<div class="pricecol">
+    <h3>Monthly Subscription</h3>
+    <p class="price">$15.00</p>
+    <button class="btn">Purchase Subscription</button>
+</div>
+<div id="about">
+    <h3>Why Us?</h3>
+    <p>We are an affordable community driven collection of recipes spanning every culture of food.</br> You will
+        never be at a loss for what to make for dinner.
+    </p>
+</div>
+        </div>
+    </div>
+</body>
+</html>
